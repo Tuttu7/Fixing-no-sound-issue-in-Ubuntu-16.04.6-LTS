@@ -1,1 +1,7 @@
-# Fixing-no-sound-issue-in-Ubuntu-16.04.6-LTS
+```
+killall pulseaudio
+
+pulseaudio -k
+
+pulseaudio --start
+```
